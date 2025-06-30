@@ -15,8 +15,6 @@
             loop: true,
             dots: false,
             speed: 1500,
-            // fade: true,
-            // vertical: true,
             rtl: false,
             prevArrow: '.slider-nav-prev-btn',
             nextArrow: '.slider-nav-next-btn',
@@ -73,7 +71,6 @@
             loop: true,
             dots: false,
             speed: 1500,
-            // fade: true,
             rtl: false,
             responsive: [
                 {
