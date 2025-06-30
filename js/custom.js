@@ -26,11 +26,12 @@
             $('.search-form-wrapper').removeClass('active');
         });
 
-        window.onclick = function(e){
-            if( e.target.matches(".search-form-wrapper") ){
+        $(window).on('click', function(e) {
+            if ($(e.target).is('.search-form-wrapper')) {
                 $('.search-form-wrapper').removeClass('active');
             }
-        }
+        });
+
 
 
         /*
@@ -118,7 +119,7 @@
                 $dataV = $this.data("percent"),
                 $dataDeg = $dataV * 3.6,
                 $round = $this.find(".round_per");
-            $round.css("transform", "rotate(" + parseInt($dataDeg + 180) + "deg)");
+            $round.css("transform", "rotate(" + parseInt($dataDeg + 180, 10) + "deg)");
             $this.append('<div class="circle_inbox"><span class="percent_text"></span></div>');
             $this.prop('Counter', 0).animate({Counter: $dataV},
                 {
@@ -134,7 +135,7 @@
                     $this.addClass("percent_more");
                 },2000);
                 setTimeout(function(){
-                    $round.css("transform", "rotate(" + parseInt($dataDeg + 180) + "deg)");
+                    $round.css("transform", "rotate(" + parseInt($dataDeg + 180, 10) + "deg)");
                 },2000);
             }
         });
@@ -247,10 +248,7 @@
                 return false;
             });
         });
-        // Accordion Init Height
-        // const accordionEl = $(".accordion-box-wrapper");
-        // const accordionHeight = accordionEl.innerHeight();
-        // accordionEl.css("height", accordionHeight);
+       
         // Custom-switch
         $('.switch').on('click', function() {
 
