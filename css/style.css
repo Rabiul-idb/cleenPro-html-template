@@ -16162,3 +16162,7 @@ ul.children {
 .service-area.style-1 .section-title .title{
   color: #abb2c1;
 }
+
+#main-menu #menu-all-pages-flat{
+  flex-wrap: wrap;
+}
