@@ -8355,6 +8355,17 @@ body.admin-bar .header-menu-area.sticky_menu {
   /* Unit Test Data Compatibility Start */
   /* Unit Test Data Compatibility End */
 }
+
+.blog-area .blog-posts .single-post-item .post-content-wrapper .blog-read-more,
+.blog-area .blog-post-items .single-post-item .post-content-wrapper .blog-read-more {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
 .blog-details-wrapper .single-post-item .post-content .wp-block-query .wp-block-post-template {
   padding-left: 0;
 }

@@ -26,8 +26,7 @@ $font-family: "Poppins", sans-serif;
         .post-content-wrapper {
           background: $gray-100;
           padding: 35px 25px;
-          border-bottom-right-radius: 6px;
-          border-bottom-left-radius: 6px;
+         
 
           @include sm{
             padding: 25px;
