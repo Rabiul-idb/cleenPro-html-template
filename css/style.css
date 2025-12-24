@@ -3963,7 +3963,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .main-menu ul ul li {
   float: none;
-  width: 210px;
+  min-width: 210px;
 }
 .main-menu ul ul li ul {
   visibility: hidden;
