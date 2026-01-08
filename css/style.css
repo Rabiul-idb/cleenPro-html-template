@@ -7146,7 +7146,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   display: -ms-flexbox;
   display: flex;
   gap: 30px;
-  margin-top: 12px;
+  /* margin-top: 12px; */
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .about-video-card {
