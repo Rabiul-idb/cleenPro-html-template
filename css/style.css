@@ -16228,3 +16228,14 @@ ul.children {
 #main-menu #menu-all-pages-flat{
   flex-wrap: wrap;
 }
+
+
+.logged-in.admin-bar .header-area.style-1 .header-menu-area .header-menu-wrapper.sticky_menu{
+  top: 32px;
+}
+
+@media (max-width: 782px) {
+  .logged-in.admin-bar .header-area.style-1 .header-menu-area .header-menu-wrapper.sticky_menu{
+    top: 46px;
+  }
+}
