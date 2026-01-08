@@ -3988,6 +3988,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   background-color: #fedb5c;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
+  color: #0e3440;
 }
 .main-menu ul ul li:last-child a {
   border-bottom: 0px;
