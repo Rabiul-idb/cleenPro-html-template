@@ -3922,6 +3922,9 @@ body.admin-bar .header-menu-area.sticky_menu {
   -webkit-transition: none;
   transition: none;
 }
+.main-menu ul li a:hover {
+  color: #fff;
+}
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .main-menu ul li a {
     padding: 18px 28px;
@@ -4007,6 +4010,8 @@ body.admin-bar .header-menu-area.sticky_menu {
   background-color: #fedb5c;
   bottom: 0;
   left: 50%;
+  border: none;
+  margin-left: 0;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }
