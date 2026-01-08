@@ -6136,7 +6136,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   opacity: 1;
   visibility: visible;
   margin-bottom: 0;
-  margin-top: 30px;
+  margin-top: 20px;
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
@@ -6768,7 +6768,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 33px;
+  gap: 30px;
 }
 .about-info-card .about-info-content .section-title {
   -webkit-box-orient: vertical;
@@ -6790,6 +6790,12 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .about-info-card .about-info-content .sub-title {
   font-weight: 500;
+}
+.about-info-card .about-info-content .list-item-wrapper{
+  margin-top: -12px;
+}
+.about-info-card .about-info-content .list-item-wrapper p:empty{
+  display: none;
 }
 .about-info-card .about-info-content .list-item-wrapper ul {
   padding: 0;
