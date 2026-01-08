@@ -16152,7 +16152,7 @@ ul.children {
 }
 
 .circle_percent .circle_inner {
-    clip: rect(0 .5em 1em 0em);
+    /* clip: rect(0 .5em 1em 0em); */
 }
 
 .circle_inner {
@@ -16161,7 +16161,7 @@ ul.children {
     top: 0;
     width: 1em;
     height: 1em;
-    /* clip: rect(0 1em 1em .5em); */
+    clip: rect(0 1em 1em .5em);
 }
 .round_per {
     position: absolute;
