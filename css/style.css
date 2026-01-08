@@ -14183,7 +14183,7 @@ ul.children {
 
 .brand-slider-area {
   padding-top: 90px;
-  padding-bottom: 110px;
+  padding-bottom: 90px;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .brand-slider-area {
@@ -15891,6 +15891,7 @@ ul.children {
   font-size: 18px;
   border-radius: 6px;
   width: 100%;
+  padding-right: 0;
 }
 .subscribe-form-widget .single-field *::-webkit-input-placeholder {
   color: #778196;
