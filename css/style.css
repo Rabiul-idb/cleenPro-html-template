@@ -5310,6 +5310,12 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .slider-area.style-3 .single-slider .slider-content-wrapper {
   text-align: center;
+  margin-top: 110px;
+}
+@media only screen and (max-width: 1199px) {
+  .slider-area.style-3 .single-slider .slider-content-wrapper {
+    margin-top: 00px;
+  }
 }
 .slider-area.style-3 .single-slider .slider-content-wrapper .slider-content .slider-short-title {
   color: #ffffff;
