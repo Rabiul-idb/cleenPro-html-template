@@ -16274,8 +16274,11 @@ ul.children {
 }
 @media (max-width: 991px) {
   .logged-in.admin-bar .header-area.style-2.has-header-top .header-menu-wrapper{
-  margin-top: 32px;
-}
+    margin-top: 32px;
+  }
+  .logged-in.admin-bar .header-area.style-2.has-header-top .header-menu-wrapper.sticky_menu{
+    margin-top: 0;
+  }
 }
 @media (max-width: 782px) {
   .logged-in.admin-bar .header-area.style-1 .header-menu-area .header-menu-wrapper.sticky_menu,
