@@ -425,6 +425,7 @@ input.theme-btn {
   gap: 10px !important;
   border-radius: 50px !important;
   overflow: hidden !important;
+  color: #1c2325 !important;
 }
 input.theme-btn:focus {
   color: #1c2325;
@@ -460,7 +461,6 @@ input.theme-btn.simple-btn.arrow-position-left {
 }
 
 input.theme-btn {
-  display: inline-block !important;
   width: inherit !important;
   border: 0 !important;
 }
