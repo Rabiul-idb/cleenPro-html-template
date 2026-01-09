@@ -409,22 +409,22 @@ input.theme-btn:focus {
   color: #ffffff;
 }
 input.theme-btn {
-  background-color: #fedb5c;
-  padding: 18px 48px;
-  text-align: center;
-  font-weight: 500;
+  background-color: #fedb5c !important;
+  padding: 18px 48px !important;
+  text-align: center !important;
+  font-weight: 500 !important;
   font-family: "Poppins", sans-serif;
   text-transform: capitalize;
-  position: relative;
-  z-index: 1;
-  display: inline-flex;
-  font-size: 16px;
+  position: relative !important;
+  z-index: 1 !important;
+  display: inline-flex !important;
+  font-size: 16px !important;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center;
-  gap: 10px;
-  border-radius: 50px;
-  overflow: hidden;
+  align-items: center !important;
+  gap: 10px !important;
+  border-radius: 50px !important;
+  overflow: hidden !important;
 }
 input.theme-btn:focus {
   color: #1c2325;
