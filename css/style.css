@@ -16272,7 +16272,11 @@ ul.children {
 .logged-in.admin-bar .header-area.style-2 .header-top{
  margin-top: 32px;
 }
-
+@media (max-width: 991px) {
+  .logged-in.admin-bar .header-area.style-2 .header-top{
+  margin-top: 32px;
+}
+}
 @media (max-width: 782px) {
   .logged-in.admin-bar .header-area.style-1 .header-menu-area .header-menu-wrapper.sticky_menu,
   .header-area.style-2 .header-menu-wrapper.sticky_menu{
