@@ -378,6 +378,18 @@ input.theme-btn:before {
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
+
+input.theme-btn:before {
+  position: absolute;
+  width: 200%;
+  height: 0%;
+  left: 0;
+  background-color: #2ab97e;
+  content: "";
+  z-index: -1;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
 .theme-btn:hover,
 .wp-block-loginout a:hover,
 input.theme-btn:hover {
@@ -395,6 +407,27 @@ input.theme-btn:hover:before {
 .wp-block-loginout a:focus,
 input.theme-btn:focus {
   color: #ffffff;
+}
+input.theme-btn {
+  background-color: #fedb5c;
+  padding: 18px 48px;
+  text-align: center;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+  position: relative;
+  z-index: 1;
+  display: inline-flex;
+  font-size: 16px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 50px;
+  overflow: hidden;
+}
+input.theme-btn:focus {
+  color: #1c2325;
 }
 .theme-btn.simple-btn,
 .wp-block-loginout a.simple-btn,
