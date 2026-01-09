@@ -419,7 +419,7 @@ input.theme-btn {
 }
 input.theme-btn:focus,
 input.theme-btn:hover {
-  color: #1c2325;
+  color: #fff;
   background-color: #2ab97e !important;
 }
 .theme-btn.simple-btn,
