@@ -16178,55 +16178,8 @@ ul.children {
   font-size: 96px;
   -ms-flex-negative: 0;
   flex-shrink: 0;
-  /* this */
-  width: 1em;
-  height: 1em;
-  position: relative;
-  background: #eee;
-  border-radius: 50%;
-  overflow: hidden;
-  display: inline-block;
 }
 
-.circle_percent .circle_inner {
-    /* clip: rect(0 .5em 1em 0em); */
-}
-/* this */
-.circle_inner {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 1em;
-    height: 1em;
-    clip: rect(0 1em 1em .5em);
-}
-/* this */
-.round_per {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 1em;
-    height: 1em;
-    clip: rect(0 1em 1em .5em);
-    transform: rotate(180deg);
-    transition: 1.05s;
-}
-/* this */
-.circle_inbox {
-    position: absolute;
-    z-index: 3;
-    border-radius: 50%;
-}
-
-/* this */
-.percent_text { 
-    position: absolute;
-    font-size: 36px;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-    z-index: 3;
-}
 .progress-area .circle-card .circle_percent .percent_text {
   font-size: 24px;
   font-family: "Poppins", sans-serif;
