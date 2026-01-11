@@ -11742,8 +11742,8 @@ body.admin-bar .header-menu-area.sticky_menu {
   display: flex !important;
 }
 .widget .search-form button {
-  background-color: #ffffff !important;
-  color: #1c2325 !important;
+  background-color: #ffffff ;
+  color: #1c2325;
   width: 62px;
   -ms-flex-negative: 0;
       flex-shrink: 0;
@@ -15272,6 +15272,7 @@ ul.children {
 }
 .service-details-wrapper .details-main img {
   border-radius: 12px;
+  width: 100%;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .service-details-wrapper .details-main .icon-card {
@@ -16254,6 +16255,7 @@ ul.children {
 }
 
 @media (max-width: 600px) {
+  .logged-in.admin-bar .header-area.style-1 .header-menu-area .header-menu-wrapper.sticky_menu,
   .logged-in.admin-bar .header-area.style-2 .header-menu-wrapper.sticky_menu {
     top: 0;
   }
