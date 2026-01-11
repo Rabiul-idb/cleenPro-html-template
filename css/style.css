@@ -15442,6 +15442,10 @@ ul.children {
   .footer-widget {
     margin-bottom: 50px;
   }
+
+  #cleenpro_cta_widget-2 {
+    margin-bottom: 0;
+  }
 }
 .footer-widget ul {
   padding-left: 0;
@@ -16235,6 +16239,11 @@ ul.children {
 .logged-in.admin-bar .header-area.style-2 .header-top{
  margin-top: 32px;
 }
+
+.logged-in.admin-bar .menu-sidebar-area.active{
+  top: 25px;
+}
+
 @media (max-width: 991px) {
   .logged-in.admin-bar .header-area.style-2.has-header-top .header-menu-wrapper{
     margin-top: 32px;
@@ -16251,6 +16260,10 @@ ul.children {
 
   .logged-in.admin-bar .header-area.style-2.has-header-top .header-menu-wrapper{
     margin-top: 45px;
+  }
+
+  .logged-in.admin-bar .menu-sidebar-area.active{
+    top: 30px;
   }
 }
 
