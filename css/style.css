@@ -10538,6 +10538,9 @@ body.admin-bar .header-menu-area.sticky_menu {
 .breadcrumb-list ul li:first-child:before {
   display: none;
 }
+.breadcrumb-list ul li:last-child a {
+  color: #fedb5c;
+}
 @media (max-width: 375px) {
   .breadcrumb-list ul li:first-child:before {
     display: block !important;
